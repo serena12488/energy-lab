@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#f3f2ee">
-  <meta name="description" content="一个只把数据保存在你自己浏览器里的个人能量观察工具。">
+  <meta name="description" content="一个只把数据保存在你自己浏览器里的个人能量观察与微型实验工具。">
   <title>能量实验室｜你的私人能量观察工具</title>
   <link rel="stylesheet" href="style-v2.css">
+  <link rel="stylesheet" href="content-v2.css">
 </head>
 <body>
   <header class="mobile-topbar">
@@ -51,7 +52,7 @@
         </button>
         <button id="nav-audit" type="button">
           <span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
-          <span class="nav-copy"><b>周审计</b><small>把记录变成洞察</small></span>
+          <span class="nav-copy"><b>周审计</b><small>背景 · 精力 · 结构</small></span>
         </button>
         <button id="nav-toolbox" type="button">
           <span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h16v12H4z"/><path d="M9 8V5h6v3"/><path d="M4 13h16"/></svg></span>
@@ -90,7 +91,13 @@
     </section>
   </div>
 
-  <script src="app.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/record.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/experiment.js"></script>
+  <script src="js/audit.js"></script>
+  <script src="js/toolbox.js"></script>
+  <script src="js/boot.js"></script>
   <script src="ui.js"></script>
 </body>
 </html>
